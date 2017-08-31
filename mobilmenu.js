@@ -1,6 +1,6 @@
 function onLoad() {
 
-    if (window.innerWidth <= 768) {
+   // if (window.innerWidth <= 768) {
 
     function toggleMenu() {
         document.querySelector(".burger").classList.toggle("change");
@@ -10,7 +10,7 @@ function onLoad() {
     document.querySelector("ul").addEventListener("click", toggleMenu);
 
      }
-}
+//}
 
 document.addEventListener("DOMContentLoaded", function (event) {
     onLoad();
